@@ -12,11 +12,15 @@ background-color: aliceblue;
 }
 #post{
     display: flex;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
     background-color: white;
     height: 300px;
     width: 300px;
+}
+#post p{
+    background-color: white;
 }
 button{
     border-radius: 30px;
